@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.skills-list,
+.contact-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list li,
+.contact-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.top-header {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+}
+
+.top-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.language-switcher li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dark-mode-toggle {
+  margin-left: 20px;
+}
+
+.dark-mode-toggle label {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header .logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header .developer-title {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links li img {
+  width: 24px;
+  height: 24px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* ... Seu CSS ... */
+
+/* ... Estilos anteriores ... */
+
+/* Estilos para o ícone HTML quando passar o mouse */
+.skill-item.html:hover i {
+  color: #E44D26; /* Laranja */
+}
+
+/* Estilos para o ícone CSS quando passar o mouse */
+.skill-item.css:hover i {
+  color: #2965f1; /* Azul */
+}
+
+/* Estilos para o ícone JavaScript quando passar o mouse */
+.skill-item.js:hover i {
+  color: #F0DB4F; /* Amarelo */
+}
+
+/* Estilos para o ícone Node.js quando passar o mouse */
+.skill-item.node:hover i {
+  color: #689f63; /* Verde */
+}
+
+/* Estilos para o ícone PHP quando passar o mouse */
+.skill-item.php:hover i {
+  color: #777bb4; /* Roxo */
+}
+
+/* Estilos para o ícone MySQL quando passar o mouse */
+.skill-item.mysql:hover i {
+  color: #4479A1; /* Azul-claro */
+}
+
+/* Estilos para o ícone Microsoft Azure quando passar o mouse */
+.skill-item.azure:hover i {
+  color: #0089D6; /* Azul-marinho */
+}
+
+/* Estilos para o ícone Figma quando passar o mouse */
+.skill-item.figma:hover i {
+  color: #F24E1E; /* Vermelho */
+}
+
+/* Estilos para o ícone Git quando passar o mouse */
+.skill-item.git:hover i {
+  color: #F05032; /* Vermelho-escuro */
+}
+
+/* Estilos para o nome da habilidade quando passar o mouse */
+.skill-item:hover .skill-name {
+  color: #F24E1E; /* Vermelho */
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-item i {
+  font-size: 24px; 
+  margin-right: 10px; 
+}
+
+.skill-item .skill-name {
+  font-size: 18px; 
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; 
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; 
+  border-radius: 5px; 
+  background-color: #f8f8f8; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.skill i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  transition: color 0.3s; 
+}
+
+.skill:hover i {
+  color: #1d1d1d; 
+}
+
+.skill-name {
+  font-size: 18px;
+  text-align: center;
+  color: #555;
+}
+
+.skill:hover .skill-name {
+  color: #1d1d1d; 
+}
+
+/* Seu CSS existente... */
+
+/* Estilos para o menu responsivo */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none; /* Começa escondido */
+}
+
+.navbar {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 20px;
+}
+
+.nav-links li a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f00; /* Vermelho */
+}
+
+/* Estilos adicionais para o menu responsivo em telas menores */
+@media screen and (max-width: 768px) {
+  .top-nav {
+    display: none; /* Esconde a navegação original em telas menores */
+  }
+
+  .menu-overlay {
+    display: block; /* Mostra o menu responsivo em telas menores */
+  }
+
+  .navbar {
+    padding-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
