@@ -35,7 +35,6 @@ function removeColorClass(event) {
   skillName.style.color = '#555'; 
 }
 
-
 const skills = document.querySelectorAll('.skill');
 
 skills.forEach(skill => {
@@ -43,19 +42,14 @@ skills.forEach(skill => {
   skill.addEventListener('mouseleave', removeColorClass);
 });
 
-// Seu JavaScript existente...
-
-// Função para manipular a exibição do menu responsivo
 function toggleMenu() {
   var menuOverlay = document.querySelector('.menu-overlay');
   menuOverlay.style.display = menuOverlay.style.display === 'block' ? 'none' : 'block';
 }
 
-// Evento de clique no ícone de menu para mostrar o menu
 var menuIcon = document.querySelector('.fa-bars');
 menuIcon.addEventListener('click', toggleMenu);
 
-// Evento de clique nos links do menu para ocultar o menu quando um link é clicado (opcional)
 var navLinks = document.querySelectorAll('.nav-links li a');
 navLinks.forEach(link => {
   link.addEventListener('click', toggleMenu);

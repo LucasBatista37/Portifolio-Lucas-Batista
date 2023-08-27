@@ -99,30 +99,6 @@ body {
   align-items: center;
 }
 
-.language-switcher {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.language-switcher li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.dark-mode-toggle {
-  margin-left: 20px;
-}
-
-.dark-mode-toggle label {
-  font-size: 14px;
-  margin-right: 5px;
-}
-
-.dark-mode-toggle input[type="checkbox"] {
-  vertical-align: middle;
-}
-
 .header {
   background-color: #f8f8f8;
   padding: 20px 0;
@@ -162,58 +138,45 @@ ol {
   padding-left: 0;
 }
 
-/* ... Seu CSS ... */
-
-/* ... Estilos anteriores ... */
-
-/* Estilos para o ícone HTML quando passar o mouse */
 .skill-item.html:hover i {
-  color: #E44D26; /* Laranja */
+  color: #E44D26; 
 }
 
-/* Estilos para o ícone CSS quando passar o mouse */
+
 .skill-item.css:hover i {
-  color: #2965f1; /* Azul */
+  color: #2965f1; 
 }
 
-/* Estilos para o ícone JavaScript quando passar o mouse */
 .skill-item.js:hover i {
-  color: #F0DB4F; /* Amarelo */
+  color: #F0DB4F;
 }
 
-/* Estilos para o ícone Node.js quando passar o mouse */
 .skill-item.node:hover i {
-  color: #689f63; /* Verde */
+  color: #689f63; 
 }
 
-/* Estilos para o ícone PHP quando passar o mouse */
 .skill-item.php:hover i {
-  color: #777bb4; /* Roxo */
+  color: #777bb4; 
 }
 
-/* Estilos para o ícone MySQL quando passar o mouse */
 .skill-item.mysql:hover i {
-  color: #4479A1; /* Azul-claro */
+  color: #4479A1;
 }
 
-/* Estilos para o ícone Microsoft Azure quando passar o mouse */
 .skill-item.azure:hover i {
-  color: #0089D6; /* Azul-marinho */
+  color: #0089D6; 
 }
 
-/* Estilos para o ícone Figma quando passar o mouse */
 .skill-item.figma:hover i {
-  color: #F24E1E; /* Vermelho */
+  color: #F24E1E;
 }
 
-/* Estilos para o ícone Git quando passar o mouse */
 .skill-item.git:hover i {
-  color: #F05032; /* Vermelho-escuro */
+  color: #F05032; 
 }
 
-/* Estilos para o nome da habilidade quando passar o mouse */
 .skill-item:hover .skill-name {
-  color: #F24E1E; /* Vermelho */
+  color: #F24E1E; 
 }
 
 .skill-item {
@@ -267,58 +230,39 @@ ol {
   color: #1d1d1d; 
 }
 
-/* Seu CSS existente... */
-
-/* Estilos para o menu responsivo */
-.menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: none; /* Começa escondido */
-}
-
-.navbar {
+.top-header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding-top: 50px;
+  padding: 10px 0;
 }
 
-.nav-links {
-  list-style-type: none;
+.top-header .nav-links {
+  list-style: none;
   padding: 0;
 }
 
-.nav-links li {
-  margin-bottom: 20px;
+.top-header .nav-links li {
+  margin: 0 10px;
+  display: inline;
 }
 
-.nav-links li a {
-  font-size: 24px;
-  color: #fff;
+.top-header .nav-links a {
   text-decoration: none;
+  color: #fff;
+  font-size: 18px;
   transition: color 0.3s;
 }
 
-.nav-links li a:hover {
-  color: #f00; /* Vermelho */
+.top-header .nav-links a:hover {
+  color: #ff0000;
 }
 
-/* Estilos adicionais para o menu responsivo em telas menores */
-@media screen and (max-width: 768px) {
-  .top-nav {
-    display: none; /* Esconde a navegação original em telas menores */
-  }
 
-  .menu-overlay {
-    display: block; /* Mostra o menu responsivo em telas menores */
-  }
 
-  .navbar {
-    padding-top: 20px;
-  }
-}
+
+
+
 
 
 
